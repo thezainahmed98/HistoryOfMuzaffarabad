@@ -47,7 +47,7 @@ a {text-decoration: none; }
 /* ----- Main Header --------------*/
 
 header {
-  background-image: url(Images/Muzaffarabad_Header.JPG);
+  background-image: url(images/Muzaffarabad_Header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -209,16 +209,9 @@ h4 {
 
 /* ----- Mobile Devices ----- */ 
 
-        
 
 @media screen and (max-width: 1000px) {
-    .box{ width: 40%; }
-    .header-text { font-size: 38px; }
-}
-
-
-@media screen and (max-width: 768px) {
-    .box{  width: 65%; }
+    .box{  width: 40%; }
     
     .header-text { font-size: 38px; }
     
