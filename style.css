@@ -213,7 +213,7 @@ h4 {
 @media screen and (max-width: 1000px) {
     .box{  width: 40%; }
     
-    .header-text { font-size: 38px; }
+    .header-text { font-size: 50px; }
     
     nav ul li {    
             padding-bottom: 5px; 
