@@ -1,0 +1,232 @@
+/* ----- Arricle Boxes --------------*/
+
+p { line-height: 30px; }
+
+body {
+    margin: 0;
+    background-color: #DEDEDE; 
+    }
+
+.container {
+    width: 100%; 
+    height: auto; 
+    background: #DEDEDE; 
+    
+    /* flexbox style */ 
+    
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    flex-flow: wrap; 
+}
+
+.box {
+    width: 20%; 
+    height: 400px; 
+    background: #DEDEDE; 
+    margin: 20px; 
+    font-size: 50px; 
+    box-sizing: border-box; 
+    margin-top: 45px; 
+}
+
+
+.article-image {
+    height: 350px;
+    width:  99%;
+    border:2px solid #4c4c4c;
+    }
+
+
+/* ------------------------------------------ */ 
+
+a {text-decoration: none; }
+
+* {font-family: Georgia; }
+
+/* ----- Main Header --------------*/
+
+header {
+  background-image: url(../Images/Muzaffarabad_Header.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  margin: auto;
+  width: auto;
+  height: 200px; 
+  }
+
+h1 a:link { color: #ffffff; }
+h1 a:visited { color: #ffffff; }
+h1 a:hover { color: #C0C0C0; 
+             text-transform: 1000px;
+             text-decoration: none; }
+
+.header-text {
+  text-align: center;
+  padding-top: 70px;
+  color: #ffffff;
+  font-family: Georgia;
+  text-decoration: none;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  font-weight: normal;
+  font-size: 60px;
+  text-shadow: 2px 2px #4c4c4c;
+  margin-top: 0;
+  }
+
+
+
+/* ----- Navigation Bar --------------*/
+nav {
+  background-color: #10201d;
+  padding: 8px; 
+
+  }
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Georgia;
+  margin: 80px; 
+  }
+
+nav ul {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  position: relative;
+  margin: 0; 
+  }
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  }
+
+.link-style {
+    text-decoration: none;
+    color: #36a4a0;
+    }
+
+nav a:link { color: #ffffff; }
+nav a:visited { color: #ffffff; }
+nav a:hover { color: #A26100; 
+              text-decoration: none; }
+
+
+/* -------- Article Title ----------*/ 
+  .article-header {
+    text-align: center;
+    font-size: 25px;
+    color: #36a4a0; 
+    font-family: Georgia;    
+    }
+
+
+/* --- hover --- */ 
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+
+.link-style { text-decoration: none; }
+
+
+
+/* ------- Article ------------------- */
+  .about-head {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 40px;
+        color: #36a4a0;
+        padding-bottom: 20px;
+        }
+
+  .article-header-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px;
+        width:  300px;
+        border: 2px solid grey;
+        }
+
+  .article-text {
+        padding: 5% 20% 5% 20%;
+        margin: 0 auto;
+        font-size: 20px;
+        }
+
+  .simple-list {
+        list-style: none;
+        text-align: center;
+        }
+
+  .article-sub-image {
+        width: 50%;
+        float: left;
+        text-align: center;
+        }
+
+  .article-image-caption {
+        float: none;
+        color: #777777;
+        padding-top: 5px;
+        }
+
+
+  .article-image-dimensions{
+        height: 500px;
+        width: 350px;
+        }
+
+    .divider_1 { 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        }
+
+    .about-text {
+        text-align: center; 
+        line-height: 40px;  
+        }
+
+    .article-image-right {
+        width: 50%;
+        float: right;
+        text-align: center;
+        height: 350px; 
+        width:  250px; 
+        margin-left: 20px; 
+        border: 2px solid grey; 
+        }
+h4 { 
+    color: #36a4a0; 
+}
+
+/* ----- Mobile Devices ----- */ 
+
+
+@media screen and (max-width: 1000px) {
+    .box{  width: 40%; }
+    
+    .header-text { font-size: 50px; }
+    
+    nav ul li {    
+            padding-bottom: 5px; 
+            list-style-type: none; 
+            display: inline-block;
+            }
+    
+    .article-sub-image {
+        width: 100%;
+        float: left;
+        padding-bottom: 30px; 
+        }
+    .article-text {
+        padding: 5% 10% 5% 10%;
+}
+
